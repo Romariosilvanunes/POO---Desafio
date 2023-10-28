@@ -1,4 +1,4 @@
-package interfaceiphone.aparelho;
+package interfaceIphone.aparelho;
 
 public interface aparelhoTelefonico {
 

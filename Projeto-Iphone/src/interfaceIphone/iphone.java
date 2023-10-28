@@ -1,9 +1,9 @@
-package interfaceiphone;
+package interfaceIphone;
 
 
 import java.util.Scanner;
 
-import interfaceiphone.executarOpcao.opcoes;
+import interfaceIphone.executarOpcao.opcoes;
 
 public class iphone {
     /**
@@ -27,7 +27,7 @@ public class iphone {
                     do{
                         System.out.println("\nvocê está no  Reprodutor de  Musica. Por favor, selecione sua opção\n");
                         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-                        System.out.print("Selecione a opção desejada:  1 Para Tocar, 2 Para Pausar, 3 Para SelecionarMusica -Digite 4 para Sair!\n");
+                        System.out.print("Selecione a opção desejada:  1 Para Tocar, 2 Para Pausar, 3 Para SelecionarMusica -Digite 4 para voltar ao Menu Principal!\n");
                         int numero1 = scanner.nextInt();
                         if (numero1 == 4) {
                             continuar2 = false;
@@ -49,7 +49,7 @@ public class iphone {
                     do{
                         System.out.print("\nVocê está no menu de opção do Aparelho Telefônico:. Por favor, selecione sua opção\n");
                         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-                        System.out.println("Selecione a opção desejada:  1 Para Ligar, 2 Para Atender, 3 Para Iniciar Correio de Voz -Digite 4 para Sair!\n");
+                        System.out.println("Selecione a opção desejada:  1 Para Ligar, 2 Para Atender, 3 Para Iniciar Correio de Voz -Digite 4 para voltar ao Menu Principal!\n");
                         int numero2 = scanner.nextInt();
                         if (numero2 == 4) {
                             continuar2 = false;
@@ -70,7 +70,7 @@ public class iphone {
                     do{   
                         System.out.print("\nVocê esta no menu de opção do Aparelho Telefônico:. Por favor, selecione sua opção\n");
                         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-                        System.out.println("Selecione a opção desejada:  1 Para Exibir Página, 2 Para Abrir Nova Aba, 3 Para Atualizar Página -Digite 4 para Sair!\n");
+                        System.out.println("Selecione a opção desejada:  1 Para Exibir Página, 2 Para Abrir Nova Aba, 3 Para Atualizar Página -Digite 4 para voltar ao Menu Principal!\n");
                         int numero3 = scanner.nextInt();
                         if (numero3 == 4) {
                             continuar2 = false;

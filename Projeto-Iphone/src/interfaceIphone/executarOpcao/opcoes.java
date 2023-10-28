@@ -1,10 +1,9 @@
-package interfaceiphone.executarOpcao;
+package interfaceIphone.executarOpcao;
 
-import interfaceiphone.aparelho.aparelhoTelefonico;
-import interfaceiphone.navegador.navegadorInternet;
-import interfaceiphone.reprodutor.reprodutorMusicas;
+import interfaceIphone.navegador.navegadorInternet;
+import interfaceIphone.reprodutor.reprodutorMusicas;
 
-public class opcoes implements aparelhoTelefonico,reprodutorMusicas,navegadorInternet{
+public class opcoes implements interfaceIphone.aparelho.aparelhoTelefonico,reprodutorMusicas,navegadorInternet{
     public void ligar(){
         System.out.println("\nFazendo  Ligação....\n");
     }

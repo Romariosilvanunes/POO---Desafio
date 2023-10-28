@@ -1,4 +1,4 @@
-package interfaceiphone.navegador;
+package interfaceIphone.navegador;
 
 public interface navegadorInternet   {
 
